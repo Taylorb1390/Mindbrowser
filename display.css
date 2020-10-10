@@ -1,0 +1,77 @@
+body{
+  background: ghostwhite;
+  height: 100vh;
+  font-weight: 100;
+}
+
+li {display: inline-block;
+    color: #aaffaa;
+}
+
+.test1 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.test2 {
+    color: orange;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+
+.test3 {
+    color: black;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.test4 {
+    color: green;
+    text-decoration: underline overline;
+    font-size: 40px;
+}
+
+.test5 {
+    color: purple;
+    text-decoration: overline;
+    font-size: 50px;
+}
+
+.test6 {
+    color: orangered;
+    text-decoration-style: dotted;
+    font-size: 60px;
+}
+
+.test7 {
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-size: 70px;
+}
+
+.test8 {
+    color: goldenrod;
+    text-decoration-style: wavy;
+    font-size: 80px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout: auto;
+    width: 180px;
+}
+
+textarea {
+    resize: horizontal;
+    size: B5;
+
+}
+th,td {
+    border: 1px solid black;
+}
+
+
