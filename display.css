@@ -77,4 +77,22 @@ li {display: inline-block;
   perspective: 500px;
 }
 
+.clip-text {
+  background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  color: transparent; // set to transparent, otherwise won't see the background
+
+  width: 300px;
+  height: 100px;
+  box-sizing: border-box;
+  font-size: 58px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  flex-shrink: 0;
+}
+
 
